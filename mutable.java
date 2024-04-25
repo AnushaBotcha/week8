@@ -1,5 +1,5 @@
 class Immutable{
-    private final String a="Dinesh naidu";
+    private final String a="Anusha Botcha";
     Immutable(String a){
         //this.a=a;
         //This shows an error because we have given the variable as final means we cannot anything
@@ -13,9 +13,9 @@ class Immutable{
 public class MutableAndImmutable {
     public static void main(String[] args) {
         //Mutable Object
-        StringBuilder obj=new StringBuilder("Dinesh");
+        StringBuilder obj=new StringBuilder("Anusha");
         obj.append(" ");
-        obj.append("naidu");
+        obj.append("Botcha");
         String a=obj.toString();
         System.out.println("The final modified string : "+a);
         //Immutable object
